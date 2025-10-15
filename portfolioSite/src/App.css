@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
 #root {
   margin: 0 auto;
   text-align: center;
@@ -5,6 +9,27 @@
   color: #EBE8E3;
   width: 100%;
   height: 100%;
+}
+
+h1 {
+  font-size: 128px;
+  margin-bottom: 2px;
+  font-family: "DM Serif Display", serif;
+}
+
+h2 {
+  font-size: 64px;
+  margin: 2px;
+  font-family: "DM Serif Display", serif;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo {
@@ -36,6 +61,86 @@ header {
 #top-aurora {
   position: relative;
   z-index: 0;
+}
+
+#mission {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  text-align: left;
+}
+
+#intro {
+  margin-left: 5%;
+}
+
+img {
+  height: 60vh;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#resume {
+  display: flex;
+  flex-direction: row;
+}
+
+#resume button {
+  margin-right: 5%;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5%;
+}
+
+#socials a {
+  margin-left: 5%;
+}
+
+#socials img {
+  height: 7vh;
+}
+
+/* #socials img:hover {
+  height: 7.5vh;
+} */
+
+#schools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 15vw);
+  row-gap: 2%;
+  margin-bottom: 5vw;
+}
+
+#schools img {
+  justify-self: center;
+  align-self: center;
+  height: 15vw;
+}
+
+.info {
+  text-align: left;
+}
+
+.major {
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+#schools p {
+  margin-top: 2vw;
 }
 
 @keyframes logo-spin {

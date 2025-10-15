@@ -116,6 +116,40 @@ span {
   height: 7.5vh;
 } */
 
+.university {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.university img {
+  height: 15vw;
+  margin-right: 5%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.degree {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  text-align: right;
+}
+
+.degree p {
+  padding-right: 5%;
+  margin-bottom: 0;
+  margin-right: 5%;
+}
+
+.major {
+  font-weight: bold;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

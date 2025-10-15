@@ -116,38 +116,31 @@ span {
   height: 7.5vh;
 } */
 
-.university {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+#schools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 15vw);
+  row-gap: 2%;
+  margin-bottom: 5vw;
 }
 
-.university img {
+#schools img {
+  justify-self: center;
+  align-self: center;
   height: 15vw;
-  margin-right: 5%;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
   text-align: left;
-}
-
-.degree {
-  display: flex;
-  flex-direction: row;
-  width: 60vw;
-  text-align: right;
-}
-
-.degree p {
-  padding-right: 5%;
-  margin-bottom: 0;
-  margin-right: 5%;
 }
 
 .major {
   font-weight: bold;
+  margin-bottom: 2%;
+}
+
+#schools p {
+  margin-top: 2vw;
 }
 
 @keyframes logo-spin {

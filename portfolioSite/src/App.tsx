@@ -52,26 +52,21 @@ function App() {
       </section>
       <section id="education">
         <h2>Education</h2>
-        <div class="university">
+        <div id="schools">
           <img src="/scu.png"></img>
           <div class="info">
-            <div class="degree">
-              <p class="major">B.S. Computer Science & Engineering</p>
-              <p>Sep 2021 - June 2025</p>
-            </div>
+            <p class="major">B.S. Computer Science & Engineering</p>
             <p>Cumulative GPA: 3.5/4.0</p>
+            <p>Cum Laude Graduation Honors</p>
           </div>
-        </div>
-        <div class="university">
+          <p>Sep 2021 - June 2025</p>
           <img src="/yonsei.png"></img>
           <div class="info">
-            <div class="degree">
-              <p class="major">Computer Science</p>
-              <p>Sep 2023 - Dec 2023</p>
-            </div>
+            <p class="major">Computer Science</p>
             <p>Cumulative GPA: 3.8/4.0</p>
             <p>Study Abroad Fall Semester</p>
           </div>
+          <p>Sep 2023 - Dec 2023</p>
         </div>
       </section>
       <section id="skills">

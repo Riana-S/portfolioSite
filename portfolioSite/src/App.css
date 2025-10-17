@@ -66,7 +66,7 @@ header {
 #mission {
   display: flex;
   flex-direction: row;
-  padding: 5%;
+  margin: 5% 5% 3% 5%;
   text-align: left;
 }
 
@@ -170,6 +170,85 @@ span {
   height: 7vw;
 }
 
+#experience {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #EBE8E3;
+  color:#071E22;
+  padding: 2rem;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 2% 13% 0% 13%;
+  justify-content: space-around;
+}
+
+.card img {
+  height: 9vw;
+}
+
+/* Animation styles */
+.reveal {
+  /* The initial, hidden state of the element */
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.reveal.is-visible {
+  /* The final, visible state of the element */
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.job {
+  display: grid;
+  grid-template-columns: 30vw 1fr;
+  grid-template-rows: repeat(2, 3vw);
+  width: 50vw;
+}
+
+.job p {
+  align-self: center;
+  margin: 0;
+}
+
+.role {
+  font-weight: bold;
+  text-align: left;
+}
+
+.company {
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+}
+
+.workInfo {
+  text-align: right;
+}
+
+.topSkills {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+
+.topSkills button {
+  margin-right: 2%;
+}
+
+footer {
+  margin-top: 2%;
+  padding: 5%;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -183,12 +262,4 @@ span {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

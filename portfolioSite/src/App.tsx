@@ -1,8 +1,10 @@
 import './App.css'
 import Aurora from './Aurora';
+import { useRevealOnScroll } from "./revealScroll";
 
 
 function App() {
+  useRevealOnScroll();
 
   return (
     <>
@@ -50,7 +52,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="education">
+      <section class="reveal" id="education">
         <h2>Education</h2>
         <div id="schools">
           <img src="/scu.png"></img>
@@ -69,7 +71,7 @@ function App() {
           <p>Sep 2023 - Dec 2023</p>
         </div>
       </section>
-      <section id="skills">
+      <section class="reveal" id="skills">
         <h2>Technical Skills</h2>
         <div id="mainSkills">
           <img src="/html.png"></img>
@@ -92,9 +94,110 @@ function App() {
           <img src="git.png"></img>
         </div>
       </section>
-      <section id="experience">
+      <section class="reveal" id="experience">
         <h2>Work Experience</h2>
+        <section class="reveal">
+          <div class="card">
+            <img src="/bytedance.png"></img>
+            <div class="work">
+              <div class="job">
+                <p class="role">Developer Influencer</p>
+                <p class="workInfo">Sep 2025 - Oct 2025</p>
+                <p class="company">ByteDance</p>
+                <p class="workInfo">Remote</p>
+              </div>
+              <div class="topSkills">
+                <button>TypeScript</button>
+                <button>HTML / CSS</button>
+                <button>Apple Vision Pro</button>
+                <button>Video Editing</button>
+                <button>Figma</button>
+              </div>
+            </div> 
+          </div>
+        </section>
+        <section class="reveal">
+          <div class="card">
+            <img src="/scu_imaginarium_logo.jpeg"></img>
+            <div class="work">
+              <div class="job">
+                <p class="role">Lab Technician & Research Lead</p>
+                <p class="workInfo">Feb 2023 - Jun 2025</p>
+                <p class="company">SCU Imaginarium</p>
+                <p class="workInfo">Part-Time In-Person</p>
+              </div>
+              <div class="topSkills">
+                <button>Social Sciences</button>
+                <button>Quant-Qual Methods</button>
+                <button>VR</button>
+                <button>Event Planning</button>
+                <button>Video Editing</button>
+              </div>
+            </div> 
+          </div>
+        </section>
+        <section class="reveal">
+          <div class="card">
+            <img src="/shc.png"></img>
+            <div class="work">
+              <div class="job">
+                <p class="role">IT Ambulatory Services Intern</p>
+                <p class="workInfo">Jun 2024 - Sep 2024</p>
+                <p class="company">Stanford Health Care</p>
+                <p class="workInfo">Full-Time Hybrid</p>
+              </div>
+              <div class="topSkills">
+                <button>Epic</button>
+                <button>Test Scripts</button>
+                <button>Regression Testing</button>
+                <button>VBA</button>
+                <button>HTML</button>
+              </div>
+            </div> 
+          </div>
+        </section>
+        <section class="reveal">
+          <div class="card">
+            <img src="/ies.png"></img>
+            <div class="work">
+              <div class="job">
+                <p class="role">Blogger Correspondent</p>
+                <p class="workInfo">Aug 2023 - Jan 2024</p>
+                <p class="company">IES Abroad</p>
+                <p class="workInfo">Part-Time</p>
+              </div>
+              <div class="topSkills">
+                <button>Video Editing</button>
+                <button>Travel Blogging</button>
+                <button>Social Media</button>
+              </div>
+            </div> 
+          </div>
+        </section>
+        <section class="reveal">
+          <div class="card">
+            <img src="/shc.png"></img>
+            <div class="work">
+              <div class="job">
+                <p class="role">IT Ambulatory Services Intern</p>
+                <p class="workInfo">Jun 2023 - Aug 2023</p>
+                <p class="company">Stanford Health Care</p>
+                <p class="workInfo">Full-Time Hybrid</p>
+              </div>
+              <div class="topSkills">
+                <button>Data Analysis</button>
+                <button>Service Now</button>
+                <button>Microsoft Excel</button>
+                <button>Qual Methods</button>
+                <button>Security Review</button>
+              </div>
+            </div> 
+          </div>
+        </section>
       </section>
+      <footer>
+        <p>FOOTER</p>
+      </footer>
     </>
   )
 }

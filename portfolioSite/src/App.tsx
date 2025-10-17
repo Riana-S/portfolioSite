@@ -71,6 +71,26 @@ function App() {
       </section>
       <section id="skills">
         <h2>Technical Skills</h2>
+        <div id="mainSkills">
+          <img src="/html.png"></img>
+          <img src="/css.png"></img>
+          <img src="/JavaScript-logo.png"></img>
+          <img src="/cPlus.png"></img>
+          <img src="/swift.png"></img>
+          <img src="/python.png"></img>
+        </div>
+        <div id="otherSkills">
+          <img src="/vscode.png"></img>
+          <img src="/Typescript_logo.png"></img>
+          <img src="/Xcode_icon.png"></img>
+          <img src="/figma.png"></img>
+          <img src="/msOffice.png"></img>
+          <img src="/vite.svg"></img>
+          <img src="/react.png"></img>
+          <img src="/unity.png"></img>
+          <img src="C4D_Logo.png"></img>
+          <img src="git.png"></img>
+        </div>
       </section>
       <section id="experience">
         <h2>Work Experience</h2>

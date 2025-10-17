@@ -143,6 +143,33 @@ span {
   margin-top: 2vw;
 }
 
+#mainSkills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mainSkills img {
+  height: 10vw;
+}
+
+#otherSkills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 9vw);
+  place-items: center;
+  margin-top: 2%;
+  margin-left: 20vw;
+  width: 60vw;
+}
+
+#otherSkills img {
+  height: 7vw;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* logo on left, links on right */
+    align-items: center;
+    padding: 2vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 100;
+    background: transparent; /* let Aurora show through */
+    color: white;
+  }
+  
+  .navbar-logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem; /* space between links */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #CA2468; /* highlight color */
+  }

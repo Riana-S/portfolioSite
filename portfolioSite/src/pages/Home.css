@@ -58,7 +58,7 @@ header {
   background-color: #071E22;
 }
 
-#top-aurora {
+.top-aurora {
   position: relative;
   z-index: 0;
 }

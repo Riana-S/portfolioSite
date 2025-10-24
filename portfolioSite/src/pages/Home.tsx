@@ -1,7 +1,7 @@
 import './Home.css'
 import Aurora from '../components/Aurora';
 import { useRevealOnScroll } from "../components/revealScroll";
-import Navbar from "../components/navbar";
+import Navbar from '../components/navbar';
 
 export default function Home() {
   useRevealOnScroll();

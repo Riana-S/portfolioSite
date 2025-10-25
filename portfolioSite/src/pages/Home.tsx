@@ -44,7 +44,7 @@ export default function Home() {
                 <img src="/LinkedIn_logo.png"></img>
               </a>
               <a href="https://github.com/Riana-S">
-                <img src="/github.png"></img>
+                <img src="/techStack/github.png"></img>
               </a>
               <a href="https://youtube.com/@rhianina?si=rDgn1vqPx0f35P2P">
                 <img src="/Youtube_logo.png"></img>
@@ -56,14 +56,14 @@ export default function Home() {
       <section class="reveal" id="education">
         <h2>Education</h2>
         <div id="schools">
-          <img src="/scu.png"></img>
+          <img src="/companies/scu.png"></img>
           <div class="info">
             <p class="major">B.S. Computer Science & Engineering</p>
             <p>Cumulative GPA: 3.5/4.0</p>
             <p>Cum Laude Graduation Honors</p>
           </div>
           <p>Sep 2021 - June 2025</p>
-          <img src="/yonsei.png"></img>
+          <img src="/companies/yonsei.png"></img>
           <div class="info">
             <p class="major">Computer Science</p>
             <p>Cumulative GPA: 3.8/4.0</p>
@@ -75,31 +75,31 @@ export default function Home() {
       <section class="reveal" id="skills">
         <h2>Technical Skills</h2>
         <div id="mainSkills">
-          <img src="/html.png"></img>
-          <img src="/css.png"></img>
-          <img src="/JavaScript-logo.png"></img>
-          <img src="/cPlus.png"></img>
-          <img src="/swift.png"></img>
-          <img src="/python.png"></img>
+          <img src="/techStack/html.png"></img>
+          <img src="/techStack/css.png"></img>
+          <img src="/techStack/JavaScript-logo.png"></img>
+          <img src="/techStack/cPlus.png"></img>
+          <img src="/techStack/swift.png"></img>
+          <img src="/techStack/python.png"></img>
         </div>
         <div id="otherSkills">
-          <img src="/vscode.png"></img>
-          <img src="/Typescript_logo.png"></img>
-          <img src="/Xcode_icon.png"></img>
-          <img src="/figma.png"></img>
-          <img src="/msOffice.png"></img>
-          <img src="/vite.svg"></img>
-          <img src="/react.png"></img>
-          <img src="/unity.png"></img>
-          <img src="C4D_Logo.png"></img>
-          <img src="git.png"></img>
+          <img src="/techStack/vscode.png"></img>
+          <img src="/techStack/Typescript_logo.png"></img>
+          <img src="/techStack/Xcode_icon.png"></img>
+          <img src="/techStack/figma.png"></img>
+          <img src="/techStack/msOffice.png"></img>
+          <img src="/techStack/vite.svg"></img>
+          <img src="/techStack/react.png"></img>
+          <img src="/techStack/unity.png"></img>
+          <img src="/techStack/C4D_Logo.png"></img>
+          <img src="/techStack/git.png"></img>
         </div>
       </section>
       <section class="reveal" id="experience">
         <h2>Work Experience</h2>
         <section class="reveal">
           <div class="card">
-            <img src="/bytedance.png"></img>
+            <img src="/companies/bytedance.png"></img>
             <div class="work">
               <div class="job">
                 <p class="role">Developer Influencer</p>
@@ -119,7 +119,7 @@ export default function Home() {
         </section>
         <section class="reveal">
           <div class="card">
-            <img src="/scu_imaginarium_logo.jpeg"></img>
+            <img src="/companies/scu_imaginarium_logo.jpeg"></img>
             <div class="work">
               <div class="job">
                 <p class="role">Lab Technician & Research Lead</p>
@@ -139,7 +139,7 @@ export default function Home() {
         </section>
         <section class="reveal">
           <div class="card">
-            <img src="/shc.png"></img>
+            <img src="/companies/shc.png"></img>
             <div class="work">
               <div class="job">
                 <p class="role">IT Ambulatory Services Intern</p>
@@ -159,7 +159,7 @@ export default function Home() {
         </section>
         <section class="reveal">
           <div class="card">
-            <img src="/ies.png"></img>
+            <img src="/companies/ies.png"></img>
             <div class="work">
               <div class="job">
                 <p class="role">Blogger Correspondent</p>
@@ -177,7 +177,7 @@ export default function Home() {
         </section>
         <section class="reveal">
           <div class="card">
-            <img src="/shc.png"></img>
+            <img src="/companies/shc.png"></img>
             <div class="work">
               <div class="job">
                 <p class="role">IT Ambulatory Services Intern</p>

@@ -1,0 +1,41 @@
+.tech-carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    height: 5vw;
+    margin: 1rem auto;
+  }
+  
+  .carousel-track {
+    display: flex;
+    width: max-content;
+    animation: scrollLoop 12s linear infinite;
+  }
+  
+  .tech-item {
+    flex: 0 0 auto;
+    margin: 0 1rem;
+  }
+  
+  .tech-item img {
+    height: 5vw;
+    width: auto;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-item img:hover {
+    transform: scale(1.15);
+  }
+  
+  @keyframes scrollLoop {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  

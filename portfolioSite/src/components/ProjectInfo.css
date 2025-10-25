@@ -1,0 +1,85 @@
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin: 10% 4% 10% 4%;
+  color: white;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-out;
+}
+
+.project-card.reverse {
+  flex-direction: row-reverse; /* ⬅️ flips order */
+}
+
+/* Slide directions */
+.slide-left {
+  transform: translateX(-100px);
+}
+
+.slide-right {
+  transform: translateX(100px);
+}
+
+/* Base reveal fade-in */
+/* .project-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
+/* When visible, slide into center */
+/* .slide-left.is-visible,
+.slide-right.is-visible {
+  transform: translateX(0);
+  opacity: 1;
+} */
+
+.project-card.is-visible,
+.slide-left.is-visible,
+.slide-right.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.project-image img {
+  height: 20vw;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-content {
+  margin-left: 2%;
+  text-align: left;
+}
+
+.project-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+hr {
+  border: none; /* Remove default border */
+  border-top: 2px solid #ccc; /* Add a custom solid border on top */
+  margin: 20px 0; /* Add vertical spacing */
+}
+  
+.project-content a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+  
+.project-content a:hover {
+  color: #CA2468;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

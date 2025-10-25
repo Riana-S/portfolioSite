@@ -1,8 +1,12 @@
 import LightRays from '../components/LightRays';
 import Navbar from '../components/navbar';
 import './Projects.css'
+import { projects } from "../data/ProjectData";
+import ProjectInfo from "../components/ProjectInfo";
+import { useRevealOnScroll } from "../components/revealScroll";
 
 export default function Projects() {
+  useRevealOnScroll();
     return (
       <>
         <header>
@@ -11,8 +15,8 @@ export default function Projects() {
               raysOrigin="top-center"
               raysColor="#00ffff"
               raysSpeed={1.5}
-              lightSpread={0.8}
-              rayLength={1.2}
+              lightSpread={1}
+              rayLength={0.75}
               followMouse={true}
               mouseInfluence={0.1}
               noiseAmount={0.1}
@@ -26,6 +30,15 @@ export default function Projects() {
             <h3>by Riana Santos</h3>
           </div>
         </header>
+        <section className="projects-section">
+          {projects.map((project, index) => (
+            <ProjectInfo
+              key={project.id}
+              project={project}
+              reverse={index % 2 !== 0} // alternate layout
+            />
+          ))}
+        </section>
       </>
     );
   }

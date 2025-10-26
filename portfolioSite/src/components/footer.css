@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+footer {
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #051414;
+    text-align: left;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+#links {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    font-family: Poppins;
+    color: #EBE8E3;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

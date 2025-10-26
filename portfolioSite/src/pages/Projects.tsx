@@ -1,5 +1,6 @@
 import LightRays from '../components/LightRays';
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 import './Projects.css'
 import { projects } from "../data/ProjectData";
 import ProjectInfo from "../components/ProjectInfo";
@@ -43,9 +44,7 @@ export default function Projects() {
         </section>
         <section className="videos-section">
         </section>
-        <footer>
-          <p>FOOTER</p>
-        </footer>
+        <Footer />
       </>
     );
   }

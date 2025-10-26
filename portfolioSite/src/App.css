@@ -68,11 +68,6 @@ span {
   opacity: 1;
 }
 
-footer {
-  margin-top: 2%;
-  padding: 5%;
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

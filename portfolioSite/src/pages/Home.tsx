@@ -2,6 +2,7 @@ import './Home.css'
 import Aurora from '../components/Aurora';
 import { useRevealOnScroll } from "../components/revealScroll";
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 export default function Home() {
   useRevealOnScroll();
@@ -196,9 +197,7 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <footer>
-        <p>FOOTER</p>
-      </footer>
+      <Footer />
     </>
   )
 }

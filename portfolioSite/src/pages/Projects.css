@@ -1,6 +1,7 @@
 header {
     position: relative;
-    padding: 5%;
+    padding: 3% 5% 10% 5%;
+    padding-bottom: 10%;
 }
 
 #background-light {
@@ -14,4 +15,13 @@ header {
 #top-light {
     position: relative;
     z-index: 0;
+}
+
+.projects-section h2 {
+    margin-top: 5%;
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
 }

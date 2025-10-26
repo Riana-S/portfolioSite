@@ -12,6 +12,7 @@ export default function ProjectInfo({ project, reverse = false }: ProjectInfoPro
     <div className={`project-card reveal ${reverse ? "reverse slide-right" : "slide-left"}`}>
       <div className="project-image">
         <img src={project.images} alt={project.title} />
+        <TechCarousel logos={project.techStack} />
       </div>
       <div className="project-content">
         <section className="project-name">
@@ -20,18 +21,18 @@ export default function ProjectInfo({ project, reverse = false }: ProjectInfoPro
         </section>
         <hr></hr>
         <p>{project.description}</p>
-        <TechCarousel logos={project.techStack} />
         <section className="project-links">
             {project.link && (
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-                View Project
+                Project
             </a>
             )}
             {project.github && (
             <a href={project.github} target="_blank" rel="noopener noreferrer">
-                View GitHub
+                GitHub
             </a>
             )}
+            <a>Learn More</a>
         </section>
       </div>
     </div>

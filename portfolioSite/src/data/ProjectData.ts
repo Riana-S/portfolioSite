@@ -66,7 +66,7 @@ export const projects: Project[] = [
         id: 3,
         title: "SCU visionOS Learning Projects",
         date: "May 2025 - Jun 2025",
-        description: "",
+        description: "Beginner mini projects that create experiences for the Apple Vision Pro, as part of small student-led exploration group.",
         images: vlp1,
         techStack: [
             { name: "VSCode", logo: vscodeLogo },
@@ -81,7 +81,7 @@ export const projects: Project[] = [
         id: 4,
         title: "In the Fridge",
         date: "Apr 2024 - Jun 2024",
-        description: "COMM 170: VR Design Final Project aiming to evoke empathy by highlighting food insecurity through environmental contrast",
+        description: "COMM 170: VR Design Final Project aiming to evoke empathy by highlighting food insecurity through environmental contrast.",
         images: itf1,
         techStack: [
             { name: "VSCode", logo: vscodeLogo },
@@ -95,7 +95,7 @@ export const projects: Project[] = [
         id: 5,
         title: "VitAlz",
         date: "Feb 2024",
-        description: "iOS app with helpful features for Alzheimer's patients and caregivers, created for SCU Hack for Humanity 24hr hackathon",
+        description: "iOS app with helpful features for Alzheimer's patients and caregivers, created for SCU Hack for Humanity 24hr hackathon.",
         images: va1,
         techStack: [
             { name: "VSCode", logo: vscodeLogo },
@@ -110,14 +110,13 @@ export const projects: Project[] = [
         id: 6,
         title: "Get Wasted",
         date: "Feb 2023",
-        description: "2D RPG educational game that teaches proper waste management by fighting trash mobs, created for SCU Hack for Humanity 24hr hackathon",
+        description: "2D RPG educational game that teaches proper waste management by fighting trash mobs, created for SCU Hack for Humanity 24hr hackathon.",
         images: va1,
         techStack: [
             { name: "Unity", logo: unityLogo },
             { name: "CSharp", logo: cSharpLogo },
             { name: "Git", logo: gitLogo },
         ],
-        github: "https://github.com/Riana-S/VitAlz",
-        link: "https://devpost.com/software/vitalz",
+        link: "https://devpost.com/software/get-wasted-6p0fca",
     },
 ];

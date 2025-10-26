@@ -39,6 +39,13 @@ export default function Projects() {
             />
           ))}
         </section>
+        <section className="research-section">
+        </section>
+        <section className="videos-section">
+        </section>
+        <footer>
+          <p>FOOTER</p>
+        </footer>
       </>
     );
   }

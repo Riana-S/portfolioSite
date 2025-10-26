@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 .navbar {
     display: flex;
     justify-content: space-between; /* logo on left, links on right */
     align-items: center;
-    padding: 2vw;
-    position: fixed;
+    padding: 0vw 2vw 2vw 2vw;
+    position: relative;
     top: 0;
     left: 0;
-    width: 90%;
     z-index: 100;
     background: transparent; /* let Aurora show through */
     color: white;
@@ -20,18 +21,22 @@
   .navbar-links {
     display: flex;
     list-style: none;
-    gap: 2rem; /* space between links */
+    gap: 2rem;
     margin: 0;
-    padding: 0;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 25px;
+    border: 0.5px solid white;
+    background-image: linear-gradient(to bottom, rgba(190, 189, 186, 0.3), rgba(235, 232, 227, 0.3));
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
   }
   
   .navbar-links a {
     color: white;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.2s ease;
+    font-family: Poppins;
   }
   
   .navbar-links a:hover {
-    color: #CA2468; /* highlight color */
+    text-decoration: underline;
   }

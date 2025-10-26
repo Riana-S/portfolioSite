@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 .project-card {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
-  margin: 10% 4% 10% 4%;
-  color: white;
+  margin: 4% 4% 10% 4%;
+  color: #EBE8E3;
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.8s ease-out;
@@ -22,19 +24,6 @@
 .slide-right {
   transform: translateX(100px);
 }
-
-/* Base reveal fade-in */
-/* .project-card.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-} */
-
-/* When visible, slide into center */
-/* .slide-left.is-visible,
-.slide-right.is-visible {
-  transform: translateX(0);
-  opacity: 1;
-} */
 
 .project-card.is-visible,
 .slide-left.is-visible,
@@ -59,23 +48,34 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 2vh;
+  margin: 0;
+}
+
+.project-name p {
+  margin-top: 8%;
 }
 
 hr {
   border: none; /* Remove default border */
-  border-top: 2px solid #ccc; /* Add a custom solid border on top */
+  border-top: 2px solid #EBE8E3; /* Add a custom solid border on top */
   margin: 20px 0; /* Add vertical spacing */
 }
   
 .project-content a {
-  color: #00ffff;
+  font-family: DM Serif Display;
+  font-size: larger;
+  color: #EBE8E3;
   text-decoration: none;
-  font-weight: 600;
-  transition: color 0.2s;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 25px;
+  border: 0.5px solid white;
+  background-image: linear-gradient(to bottom, rgba(190, 189, 186, 0.3), rgba(235, 232, 227, 0.3));
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
 }
-  
+
 .project-content a:hover {
-  color: #CA2468;
+  text-decoration: underline;
 }
 
 .project-links {

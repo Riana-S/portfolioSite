@@ -60,7 +60,6 @@ export const projects: Project[] = [
             { name: "Flutter", logo: flutterLogo },
             { name: "Git", logo: gitLogo },
         ],
-        github: "https://github.com/joshsj89/mozambique_app",
         link: "https://scholarcommons.scu.edu/cseng_senior/330/",
     },
     {

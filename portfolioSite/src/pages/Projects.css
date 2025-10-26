@@ -24,3 +24,52 @@ header {
 .projects-section h2 {
     margin-top: 3%;
 }
+
+.research-section {
+    margin: 5%;
+}
+
+.research-content {
+    text-align: left;
+    margin-left: 2%;
+    width: 40vw;
+}
+
+.research-name {
+    font-size: xx-large;
+}
+
+.research-date {
+    width: 55vw;
+    text-align: right;
+}
+
+.research-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin-left: 0;
+}
+
+.research-image img {
+    max-height: 20vw;
+}
+
+.category-select {
+    margin: 5%;
+    text-align: left;
+    font-size: xx-large;
+  }
+  
+  .category-select select {
+    background: transparent;
+    color: #EBE8E3;
+    border: 1px solid #EBE8E3;
+    border-radius: 8px;
+    font-size: xx-large;
+  }
+
+.hidden {
+    display: none;
+}

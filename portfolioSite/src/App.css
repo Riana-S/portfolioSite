@@ -68,6 +68,18 @@ span {
   opacity: 1;
 }
 
+button {
+  background-color: transparent;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 25px;
+  border: 0.5px solid white;
+  background-image: linear-gradient(to bottom, rgba(190, 189, 186, 0.3), rgba(235, 232, 227, 0.3));
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  font-family: DM Serif Display;
+  font-size: x-large;
+  color: #EBE8E3;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

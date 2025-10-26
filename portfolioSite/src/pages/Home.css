@@ -91,6 +91,7 @@ span {
 #resume {
   display: flex;
   flex-direction: row;
+  gap: 5%;
 }
 
 #resume button {
@@ -184,7 +185,7 @@ span {
   border-radius: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin: 2% 13% 0% 13%;
+  margin: 2% 10% 0% 10%;
   justify-content: space-around;
 }
 
@@ -237,15 +238,15 @@ span {
   display: flex;
   flex-direction: row;
   margin-top: 2%;
+  gap: 1vw;
 }
 
-.topSkills button {
-  margin-right: 2%;
-}
-
-footer {
-  margin-top: 2%;
-  padding: 5%;
+.skill {
+  background-color: #051414;
+  color: #EBE8E3;
+  font-size: large;
+  border-radius: 25px;
+  padding: 2%;
 }
 
 @keyframes logo-spin {

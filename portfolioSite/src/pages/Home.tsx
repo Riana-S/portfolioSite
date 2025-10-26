@@ -37,8 +37,8 @@ export default function Home() {
           </p>
           <div id="connect">
             <div id="resume">
-              <button>Resume</button>
-              <button>CV</button>
+              <a href="https://drive.google.com/file/d/1xB7PxCUvQ7tgiEm-xKZjFdLgti1t_6J3/view?usp=sharing"><button>Resume</button></a>
+              <a href="https://drive.google.com/file/d/1tcWnBJQmFXgCOFLpXwL5FOnT7uEzJ6lO/view?usp=sharing"><button>CV</button></a>
             </div>
             <div id="socials">
               <a href="https://linkedin.com/in/riana-santos/">
@@ -109,11 +109,11 @@ export default function Home() {
                 <p class="workInfo">Remote</p>
               </div>
               <div class="topSkills">
-                <button>TypeScript</button>
-                <button>HTML / CSS</button>
-                <button>Apple Vision Pro</button>
-                <button>Video Editing</button>
-                <button>Figma</button>
+                <p class="skill">TypeScript</p>
+                <p class="skill">HTML / CSS</p>
+                <p class="skill">Apple Vision Pro</p>
+                <p class="skill">Video Editing</p>
+                <p class="skill">Figma</p>
               </div>
             </div> 
           </div>
@@ -129,11 +129,11 @@ export default function Home() {
                 <p class="workInfo">Part-Time In-Person</p>
               </div>
               <div class="topSkills">
-                <button>Social Sciences</button>
-                <button>Quant-Qual Methods</button>
-                <button>VR</button>
-                <button>Event Planning</button>
-                <button>Video Editing</button>
+                <p class="skill">Social Sciences</p>
+                <p class="skill">Quant-Qual Methods</p>
+                <p class="skill">VR</p>
+                <p class="skill">Event Planning</p>
+                <p class="skill">Video Editing</p>
               </div>
             </div> 
           </div>
@@ -149,11 +149,11 @@ export default function Home() {
                 <p class="workInfo">Full-Time Hybrid</p>
               </div>
               <div class="topSkills">
-                <button>Epic</button>
-                <button>Test Scripts</button>
-                <button>Regression Testing</button>
-                <button>VBA</button>
-                <button>HTML</button>
+                <p class="skill">Epic</p>
+                <p class="skill">Test Scripts</p>
+                <p class="skill">Regression Testing</p>
+                <p class="skill">VBA</p>
+                <p class="skill">HTML</p>
               </div>
             </div> 
           </div>
@@ -169,9 +169,9 @@ export default function Home() {
                 <p class="workInfo">Part-Time</p>
               </div>
               <div class="topSkills">
-                <button>Video Editing</button>
-                <button>Travel Blogging</button>
-                <button>Social Media</button>
+                <p class="skill">Video Editing</p>
+                <p class="skill">Travel Blogging</p>
+                <p class="skill">Social Media</p>
               </div>
             </div> 
           </div>
@@ -187,11 +187,11 @@ export default function Home() {
                 <p class="workInfo">Full-Time Hybrid</p>
               </div>
               <div class="topSkills">
-                <button>Data Analysis</button>
-                <button>Service Now</button>
-                <button>Microsoft Excel</button>
-                <button>Qual Methods</button>
-                <button>Security Review</button>
+                <p class="skill">Data Analysis</p>
+                <p class="skill">Service Now</p>
+                <p class="skill">Microsoft Excel</p>
+                <p class="skill">Qual Methods</p>
+                <p class="skill">Security Review</p>
               </div>
             </div> 
           </div>

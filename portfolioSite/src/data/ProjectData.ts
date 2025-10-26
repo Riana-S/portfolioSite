@@ -14,6 +14,7 @@ import pmm1 from "/projectPics/pmm1.png";
 import vlp1 from "/projectPics/vlp1.png";
 import itf1 from "/projectPics/itf1.png";
 import va1 from "/projectPics/va1.png";
+import gw1 from "/projectPics/gw1.png";
 
 import reactLogo from "/techStack/react.png";
 import tsLogo from "/techStack/Typescript_logo.png";
@@ -111,7 +112,7 @@ export const projects: Project[] = [
         title: "Get Wasted",
         date: "Feb 2023",
         description: "2D RPG educational game that teaches proper waste management by fighting trash mobs, created for SCU Hack for Humanity 24hr hackathon.",
-        images: va1,
+        images: gw1,
         techStack: [
             { name: "Unity", logo: unityLogo },
             { name: "CSharp", logo: cSharpLogo },

@@ -17,11 +17,10 @@ header {
     z-index: 0;
 }
 
-.projects-section h2 {
-    margin-top: 5%;
+.projects-section {
+    margin: 5%;
 }
 
-section {
-    margin-left: 5%;
-    margin-right: 5%;
+.projects-section h2 {
+    margin-top: 3%;
 }

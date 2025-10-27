@@ -1,7 +1,6 @@
 import LightRays from '../components/LightRays';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import TikTokEmbed from '../components/tiktokEmbed';
 import './Projects.css'
 import { projects } from "../data/ProjectData";
 import ProjectInfo from "../components/ProjectInfo";
@@ -109,15 +108,8 @@ Toxic Impact: A Sentiment Analysis of Toxicity Within the Genshin Impact Twitter
               <iframe width="250px" height="400px" src="https://youtube.com/embed/pGOQCitTs6M"></iframe>
             </section>
             <h3>Videos Posted on Official Channels</h3>
-            <p>ByteDance's editing team used the original videos above to create their own content across YouTube, X, and TikTok.</p>
+            <p>ByteDance's editing team used the original videos above to create their own content across <a href="https://www.youtube.com/@WebSpatial">YouTube</a>, <a href="https://x.com/WebspatialXR">X</a>, and <a href="https://www.tiktok.com/@webspatialxr">TikTok</a>.</p>
             <section className={`video-grid reveal`}>
-              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7557075765771226398"/>
-              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551158280282754334"/>
-              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551161474023017758" />
-              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551160944676670750"/>
-              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551160404559318303" />
-              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551159852349820190"/>
-              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551158542477135135" />
               <iframe width="250px" height="400px" src="https://youtube.com/embed/zQhT_NfQJM8"></iframe>
               <iframe width="250px" height="400px" src="https://youtube.com/embed/y2R2UG6af4M"></iframe>
               <iframe width="250px" height="400px" src="https://youtube.com/embed/jXEIbQ3xBXE"></iframe>
@@ -131,6 +123,13 @@ Toxic Impact: A Sentiment Analysis of Toxicity Within the Genshin Impact Twitter
             <h2>IES Abroad (South Korea Fall 2023 Study Abroad)</h2>
             <p>I created short vlogs for IES Abroad's first cohort to South Korea, highlighting student life and travel tips.</p>
             <section className={`video-grid reveal`}>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/BKs-HpF_nic"></iframe>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/vsZSUk3VuQw"></iframe>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/6JoTnFw91iY"></iframe>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/h-Sh37WzfCc"></iframe>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/kk_UE7PzQyI"></iframe>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/4wX6iZwM1b8"></iframe>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/UdFnipwGtaA"></iframe>
               <iframe width="400px" height="250px" src="https://youtube.com/embed/aK8TT1PvKUY"></iframe>
             </section>
           </article>

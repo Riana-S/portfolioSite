@@ -1,6 +1,7 @@
 import LightRays from '../components/LightRays';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import TikTokEmbed from '../components/tiktokEmbed';
 import './Projects.css'
 import { projects } from "../data/ProjectData";
 import ProjectInfo from "../components/ProjectInfo";
@@ -92,7 +93,47 @@ Toxic Impact: A Sentiment Analysis of Toxicity Within the Genshin Impact Twitter
           </div>
         </section>
         <section className={`videos-section ${selectedCategory === "sm" ? "visible" : "hidden"}`}>
-          <p>SOCIAL MEDIA</p>
+          <article className="reveal">
+            <h2>ByteDance Web to Spatial Program</h2>
+            <p>I edited promotional videos for the WebSpatial SDK, showing how my team uses the technology.</p>
+            <section className="video-grid">
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/rlbVBEx7PIE"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/n19h2n6toew"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/fwzgFOCUQpA"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/APizxaaRNUQ"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/amFEQd_i54g"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/6PzX8XSq9cs"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/-l3s4N3yyCQ"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/8ONMdpvGWw0"></iframe>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/O2crOR9VD1Q"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/pGOQCitTs6M"></iframe>
+            </section>
+            <h3>Videos Posted on Official Channels</h3>
+            <p>ByteDance's editing team used the original videos above to create their own content across YouTube, X, and TikTok.</p>
+            <section className={`video-grid reveal`}>
+              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7557075765771226398"/>
+              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551158280282754334"/>
+              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551161474023017758" />
+              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551160944676670750"/>
+              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551160404559318303" />
+              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551159852349820190"/>
+              <TikTokEmbed url="https://www.tiktok.com/@webspatialxr/video/7551158542477135135" />
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/zQhT_NfQJM8"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/y2R2UG6af4M"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/jXEIbQ3xBXE"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/3p7ZmXk_oQc"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/R8NrfNwZqI4"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/mDFPZKAMsMs"></iframe>
+              <iframe width="250px" height="400px" src="https://youtube.com/embed/4LpRJBT9-0E"></iframe>
+            </section>
+          </article>
+          <article className="reveal">
+            <h2>IES Abroad (South Korea Fall 2023 Study Abroad)</h2>
+            <p>I created short vlogs for IES Abroad's first cohort to South Korea, highlighting student life and travel tips.</p>
+            <section className={`video-grid reveal`}>
+              <iframe width="400px" height="250px" src="https://youtube.com/embed/aK8TT1PvKUY"></iframe>
+            </section>
+          </article>
         </section>
         <Footer />
       </>

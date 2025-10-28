@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #071E22;
+  color: #EBE8E3;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 128px;
+  margin-bottom: 2px;
+  font-family: "DM Serif Display", serif;
+}
+
+h2 {
+  font-size: 64px;
+  margin: 2px;
+  font-family: "DM Serif Display", serif;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+header {
+  position: relative;
+  padding: 3% 5% 10% 5%;
+}
+
+#background-aurora {
+  position: absolute;
+  inset: 0;
+  z-index: 0; /* Aurora goes behind */
+  width: 100%;
+  background-color: #071E22;
+}
+
+#top-aurora {
+  position: relative;
+  z-index: 0;
+}
+
+#mission {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 5% 3% 5%;
+  text-align: left;
+}
+
+#intro {
+  margin-left: 5%;
+}
+
+img {
+  height: 60vh;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#resume {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+#resume button {
+  margin-right: 5%;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5%;
+}
+
+#socials a {
+  margin-left: 5%;
+}
+
+#socials img {
+  height: 7vh;
+}
+
+/* #socials img:hover {
+  height: 7.5vh;
+} */
+
+#schools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 15vw);
+  row-gap: 2%;
+  margin-bottom: 5vw;
+}
+
+#schools img {
+  justify-self: center;
+  align-self: center;
+  height: 15vw;
+}
+
+.info {
+  text-align: left;
+}
+
+.major {
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+#schools p {
+  margin-top: 2vw;
+}
+
+#mainSkills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mainSkills img {
+  height: 10vw;
+}
+
+#otherSkills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 9vw);
+  place-items: center;
+  margin-top: 2%;
+  margin-left: 20vw;
+  width: 60vw;
+}
+
+#otherSkills img {
+  height: 7vw;
+}
+
+#experience {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #EBE8E3;
+  color:#071E22;
+  padding: 2rem;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 2% 10% 0% 10%;
+  justify-content: space-around;
+}
+
+.card img {
+  height: 9vw;
+}
+
+/* Animation styles */
+.reveal {
+  /* The initial, hidden state of the element */
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.reveal.is-visible {
+  /* The final, visible state of the element */
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.job {
+  display: grid;
+  grid-template-columns: 30vw 1fr;
+  grid-template-rows: repeat(2, 3vw);
+  width: 50vw;
+}
+
+.job p {
+  align-self: center;
+  margin: 0;
+}
+
+.role {
+  font-weight: bold;
+  text-align: left;
+}
+
+.company {
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+}
+
+.workInfo {
+  text-align: right;
+}
+
+.topSkills {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  gap: 1vw;
+}
+
+.skill {
+  background-color: #051414;
+  color: #EBE8E3;
+  font-size: large;
+  border-radius: 25px;
+  padding: 2%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

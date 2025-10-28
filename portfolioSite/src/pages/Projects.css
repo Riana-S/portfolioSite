@@ -1,0 +1,93 @@
+header {
+    position: relative;
+    padding: 3% 5% 10% 5%;
+    padding-bottom: 10%;
+}
+
+#background-light {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    width: 100%;
+    background-color: #071E22;
+}
+
+#top-light {
+    position: relative;
+    z-index: 0;
+}
+
+.projects-section {
+    margin: 5%;
+}
+
+.projects-section h2 {
+    margin-top: 3%;
+}
+
+.research-section {
+    margin: 5%;
+}
+
+.research-content {
+    text-align: left;
+    margin-left: 2%;
+    width: 40vw;
+}
+
+.research-name {
+    font-size: xx-large;
+}
+
+.research-date {
+    width: 55vw;
+    text-align: right;
+}
+
+.research-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin-left: 0;
+}
+
+.research-image img {
+    max-height: 20vw;
+}
+
+.category-select {
+    margin: 5%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-size: xx-large;
+  }
+  
+  .category-select select {
+    background: transparent;
+    color: #EBE8E3;
+    border: 1px solid #EBE8E3;
+    border-radius: 8px;
+    font-size: xx-large;
+  }
+
+.hidden {
+    display: none;
+}
+
+.videos-section {
+    margin: 0 5% 2% 5%;
+}
+
+.videos-section h2 {
+    margin-top: 2%;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
+    align-items: center;
+    row-gap: 2vw;
+    margin-bottom: 5%;
+}

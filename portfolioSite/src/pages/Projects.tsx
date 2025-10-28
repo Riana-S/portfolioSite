@@ -92,10 +92,10 @@ Toxic Impact: A Sentiment Analysis of Toxicity Within the Genshin Impact Twitter
           </div>
         </section>
         <section className={`videos-section ${selectedCategory === "sm" ? "visible" : "hidden"}`}>
-          <article className="reveal">
+          <article>
             <h2>ByteDance Web to Spatial Program</h2>
             <p>I edited promotional videos for the WebSpatial SDK, showing how my team uses the technology.</p>
-            <section className="video-grid">
+            <section className={`video-grid reveal`}>
               <iframe width="400px" height="250px" src="https://youtube.com/embed/rlbVBEx7PIE"></iframe>
               <iframe width="250px" height="400px" src="https://youtube.com/embed/n19h2n6toew"></iframe>
               <iframe width="250px" height="400px" src="https://youtube.com/embed/fwzgFOCUQpA"></iframe>

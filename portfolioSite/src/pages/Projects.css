@@ -58,6 +58,7 @@ header {
 
 .category-select {
     margin: 5%;
+    margin-bottom: 2%;
     text-align: left;
     font-size: xx-large;
   }
@@ -72,4 +73,21 @@ header {
 
 .hidden {
     display: none;
+}
+
+.videos-section {
+    margin: 0 5% 2% 5%;
+}
+
+.videos-section h2 {
+    margin-top: 2%;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
+    align-items: center;
+    row-gap: 2vw;
+    margin-bottom: 5%;
 }

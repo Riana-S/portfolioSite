@@ -32,7 +32,7 @@ export default function ProjectInfo({ project, reverse = false }: ProjectInfoPro
                 GitHub
             </a>
             )}
-            <a>Learn More</a>
+            {/* <a>Learn More</a> */}
         </section>
       </div>
     </div>

@@ -44,6 +44,10 @@
   text-align: left;
 }
 
+.project-content p {
+  margin-bottom: 5%;
+}
+
 .project-name {
   display: flex;
   flex-direction: row;

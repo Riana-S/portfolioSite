@@ -35,6 +35,10 @@ header {
     width: 40vw;
 }
 
+.research-content p {
+    margin-bottom: 2%;
+}
+
 .research-name {
     font-size: xx-large;
 }
@@ -89,5 +93,6 @@ header {
     justify-items: center;
     align-items: center;
     row-gap: 2vw;
+    margin-top: 2%;
     margin-bottom: 5%;
 }

@@ -10,27 +10,6 @@
   height: 100%;
 }
 
-h1 {
-  font-size: 128px;
-  margin-bottom: 2px;
-  font-family: "DM Serif Display", serif;
-}
-
-h2 {
-  font-size: 64px;
-  margin: 2px;
-  font-family: "DM Serif Display", serif;
-}
-
-h3 {
-  font-family: "Poppins", sans-serif;
-}
-
-p {
-  font-size: 30px;
-  font-family: "Poppins", sans-serif;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -73,6 +52,10 @@ header {
   margin-left: 5%;
 }
 
+#intro p {
+  margin-bottom: 2%;
+}
+
 img {
   height: 60vh;
 }
@@ -111,10 +94,6 @@ span {
 #socials img {
   height: 7vh;
 }
-
-/* #socials img:hover {
-  height: 7.5vh;
-} */
 
 #schools {
   display: grid;
@@ -176,7 +155,7 @@ span {
   margin-top: 5%;
 }
 
-.card {
+.workExp {
   display: flex;
   flex-direction: row;
   background-color: #EBE8E3;
@@ -189,8 +168,8 @@ span {
   justify-content: space-around;
 }
 
-.card img {
-  height: 9vw;
+.workExp img {
+  height: 12vw;
 }
 
 /* Animation styles */

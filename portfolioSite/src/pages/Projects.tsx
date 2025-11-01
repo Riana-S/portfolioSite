@@ -75,9 +75,9 @@ short-form video on social media that manufactures multitasking within a given p
           </div>
           <div className={`project-card reveal reverse slide-right`}>
             <div className="research-image">
-              <img src="/projectPics/sludge.png"></img>
+              <img src="/projectPics/genshin.png"></img>
               <p><span>This was my first ever research project I contributed to.</span> It introduced me to Game Studies and inspired me to pursue further research in contemporary media and media psychology.</p>
-              <a href=""><button>See Project</button></a>
+              <a href="https://docs.google.com/presentation/d/1L-Rjvx0SWI0rvQeaxmr9DIXYC1jP0A3DUqK-UhN4gZU/edit?usp=sharing"><button>See Project</button></a>
             </div>
             <div className="research-content">
               <section className="project-name">

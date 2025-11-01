@@ -1,6 +1,6 @@
 import "./ProjectInfo.css";
 import { type Project } from "../data/ProjectData";
-import TechCarousel from "./TechCarousel";
+import TechCarousel from "./techCarousel";
 
 interface ProjectInfoProps {
   project: Project;

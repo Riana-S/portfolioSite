@@ -3,6 +3,7 @@ import DarkVeil from '../components/DarkVeil';
 import Stack from '../components/Stack';
 import './About.css';
 import { useState } from 'react';
+import RandomAbout from "../components/RandomAbout";
 
 const images = [
   { id: 1, img: "./aboutPics/duckface.jpg" },
@@ -87,6 +88,24 @@ export default function About() {
                 <section id="moreAbout" className={`about-section ${topCardId === 1 ? "visible" : "hidden"}`}>
                     <h2>Tell me more!</h2>
                     <p>Okok, here are some other things I like :3</p>
+                    <RandomAbout />
+                    <h3 id="indieAboutTitle">Indie Web Graphics Dump:</h3>
+                    <div id="indieAbout">
+                        <img className="indieStamp" src="./aboutPics/pantonestardust.gif"></img>
+                        <img className="indieStamp" src="./aboutPics/japanmascots.gif"></img>
+                        <img className="indieStamp" src="./aboutPics/gameboy.gif"></img>
+                        <img className="indieStamp" src="./aboutPics/sam.png"></img>
+                        <img className="indieStamp" src="./aboutPics/minecraftbee.png"></img>
+                        <img className="indieStamp" src="./aboutPics/icollectplushies.png"></img>
+                        <img className="indieStamp" src="./aboutPics/paper.gif"></img>
+                        <img className="indieButton" src="./aboutPics/1cheez.png"></img>
+                        <div id="badgeStack">
+                            <img src="./aboutPics/hpslytherin2.gif"></img>
+                            <img src="./aboutPics/sonic.gif"></img>
+                        </div>
+                        <img className="indieBlinkie" src="./aboutPics/manytabs.gif"></img>
+                        <img className="indieBlinkie" src="./aboutPics/moonbeams.gif"></img>
+                    </div>
                 </section>
             </article>
         </div>

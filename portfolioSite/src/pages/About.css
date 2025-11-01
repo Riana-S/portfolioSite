@@ -120,6 +120,45 @@
     margin: 15px 0 0 0;
 }
 
+#indieAboutTitle {
+    margin: 0;
+}
+
+#indieAbout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+
+.indieStamp {
+    object-fit: cover;
+    width: 139px;
+    height: 73px;
+}
+
+.indieButton {
+    object-fit: cover;
+    width: 207px;
+    height: 73px;
+}
+
+#badgeStack {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#badgeStack img {
+    height: 37px;
+    width: 197px;
+}
+
+.indieBlinkie {
+    height: 39px;
+    width: 292px;
+}
+
 @keyframes rotate360 {
     from {
       transform: rotate(0deg); /* Starting state: no rotation */

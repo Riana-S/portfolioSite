@@ -54,26 +54,26 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section class="reveal" id="education">
+      <section className="reveal" id="education">
         <h2>Education</h2>
         <div id="schools">
           <img src="/companies/scu.png"></img>
-          <div class="info">
-            <p class="major">B.S. Computer Science & Engineering</p>
+          <div className="info">
+            <p className="major">B.S. Computer Science & Engineering</p>
             <p>Cumulative GPA: 3.5/4.0</p>
             <p>Cum Laude Graduation Honors</p>
           </div>
           <p>Sep 2021 - June 2025</p>
           <img src="/companies/yonsei.png"></img>
-          <div class="info">
-            <p class="major">Computer Science</p>
+          <div className="info">
+            <p className="major">Computer Science</p>
             <p>Cumulative GPA: 3.8/4.0</p>
             <p>Study Abroad Fall Semester</p>
           </div>
           <p>Sep 2023 - Dec 2023</p>
         </div>
       </section>
-      <section class="reveal" id="skills">
+      <section className="reveal" id="skills">
         <h2>Technical Skills</h2>
         <div id="mainSkills">
           <img src="/techStack/html.png"></img>
@@ -96,102 +96,102 @@ export default function Home() {
           <img src="/techStack/git.png"></img>
         </div>
       </section>
-      <section class="reveal" id="experience">
+      <section className="reveal" id="experience">
         <h2>Work Experience</h2>
-        <section class="reveal">
-          <div class="card">
+        <section className="reveal">
+          <div className="card">
             <img src="/companies/bytedance.png"></img>
-            <div class="work">
-              <div class="job">
-                <p class="role">Developer Influencer</p>
-                <p class="workInfo">Sep 2025 - Oct 2025</p>
-                <p class="company">ByteDance</p>
-                <p class="workInfo">Remote</p>
+            <div className="work">
+              <div className="job">
+                <p className="role">Developer Influencer</p>
+                <p className="workInfo">Sep 2025 - Oct 2025</p>
+                <p className="company">ByteDance</p>
+                <p className="workInfo">Remote</p>
               </div>
-              <div class="topSkills">
-                <p class="skill">TypeScript</p>
-                <p class="skill">HTML / CSS</p>
-                <p class="skill">Apple Vision Pro</p>
-                <p class="skill">Video Editing</p>
-                <p class="skill">Figma</p>
+              <div className="topSkills">
+                <p className="skill">TypeScript</p>
+                <p className="skill">HTML / CSS</p>
+                <p className="skill">Apple Vision Pro</p>
+                <p className="skill">Video Editing</p>
+                <p className="skill">Figma</p>
               </div>
             </div> 
           </div>
         </section>
-        <section class="reveal">
-          <div class="card">
+        <section className="reveal">
+          <div className="card">
             <img src="/companies/scu_imaginarium_logo.jpeg"></img>
-            <div class="work">
-              <div class="job">
-                <p class="role">Lab Technician & Research Lead</p>
-                <p class="workInfo">Feb 2023 - Jun 2025</p>
-                <p class="company">SCU Imaginarium</p>
-                <p class="workInfo">Part-Time In-Person</p>
+            <div className="work">
+              <div className="job">
+                <p className="role">Lab Technician & Research Lead</p>
+                <p className="workInfo">Feb 2023 - Jun 2025</p>
+                <p className="company">SCU Imaginarium</p>
+                <p className="workInfo">Part-Time In-Person</p>
               </div>
-              <div class="topSkills">
-                <p class="skill">Social Sciences</p>
-                <p class="skill">Quant-Qual Methods</p>
-                <p class="skill">VR</p>
-                <p class="skill">Event Planning</p>
-                <p class="skill">Video Editing</p>
+              <div className="topSkills">
+                <p className="skill">Social Sciences</p>
+                <p className="skill">Quant-Qual Methods</p>
+                <p className="skill">VR</p>
+                <p className="skill">Event Planning</p>
+                <p className="skill">Video Editing</p>
               </div>
             </div> 
           </div>
         </section>
-        <section class="reveal">
-          <div class="card">
+        <section className="reveal">
+          <div className="card">
             <img src="/companies/shc.png"></img>
-            <div class="work">
-              <div class="job">
-                <p class="role">IT Ambulatory Services Intern</p>
-                <p class="workInfo">Jun 2024 - Sep 2024</p>
-                <p class="company">Stanford Health Care</p>
-                <p class="workInfo">Full-Time Hybrid</p>
+            <div className="work">
+              <div className="job">
+                <p className="role">IT Ambulatory Services Intern</p>
+                <p className="workInfo">Jun 2024 - Sep 2024</p>
+                <p className="company">Stanford Health Care</p>
+                <p className="workInfo">Full-Time Hybrid</p>
               </div>
-              <div class="topSkills">
-                <p class="skill">Epic</p>
-                <p class="skill">Test Scripts</p>
-                <p class="skill">Regression Testing</p>
-                <p class="skill">VBA</p>
-                <p class="skill">HTML</p>
+              <div className="topSkills">
+                <p className="skill">Epic</p>
+                <p className="skill">Test Scripts</p>
+                <p className="skill">Regression Testing</p>
+                <p className="skill">VBA</p>
+                <p className="skill">HTML</p>
               </div>
             </div> 
           </div>
         </section>
-        <section class="reveal">
-          <div class="card">
+        <section className="reveal">
+          <div className="card">
             <img src="/companies/ies.png"></img>
-            <div class="work">
-              <div class="job">
-                <p class="role">Blogger Correspondent</p>
-                <p class="workInfo">Aug 2023 - Jan 2024</p>
-                <p class="company">IES Abroad</p>
-                <p class="workInfo">Part-Time</p>
+            <div className="work">
+              <div className="job">
+                <p className="role">Blogger Correspondent</p>
+                <p className="workInfo">Aug 2023 - Jan 2024</p>
+                <p className="company">IES Abroad</p>
+                <p className="workInfo">Part-Time</p>
               </div>
-              <div class="topSkills">
-                <p class="skill">Video Editing</p>
-                <p class="skill">Travel Blogging</p>
-                <p class="skill">Social Media</p>
+              <div className="topSkills">
+                <p className="skill">Video Editing</p>
+                <p className="skill">Travel Blogging</p>
+                <p className="skill">Social Media</p>
               </div>
             </div> 
           </div>
         </section>
-        <section class="reveal">
-          <div class="card">
+        <section className="reveal">
+          <div className="card">
             <img src="/companies/shc.png"></img>
-            <div class="work">
-              <div class="job">
-                <p class="role">IT Ambulatory Services Intern</p>
-                <p class="workInfo">Jun 2023 - Aug 2023</p>
-                <p class="company">Stanford Health Care</p>
-                <p class="workInfo">Full-Time Hybrid</p>
+            <div className="work">
+              <div className="job">
+                <p className="role">IT Ambulatory Services Intern</p>
+                <p className="workInfo">Jun 2023 - Aug 2023</p>
+                <p className="company">Stanford Health Care</p>
+                <p className="workInfo">Full-Time Hybrid</p>
               </div>
-              <div class="topSkills">
-                <p class="skill">Data Analysis</p>
-                <p class="skill">Service Now</p>
-                <p class="skill">Microsoft Excel</p>
-                <p class="skill">Qual Methods</p>
-                <p class="skill">Security Review</p>
+              <div className="topSkills">
+                <p className="skill">Data Analysis</p>
+                <p className="skill">Service Now</p>
+                <p className="skill">Microsoft Excel</p>
+                <p className="skill">Qual Methods</p>
+                <p className="skill">Security Review</p>
               </div>
             </div> 
           </div>

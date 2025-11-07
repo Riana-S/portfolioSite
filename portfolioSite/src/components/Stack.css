@@ -6,7 +6,7 @@
   .card-rotate {
     position: absolute;
     cursor: grab;
-    width: 450px;
+    width: 400px;
   }
   
   .card {
@@ -23,16 +23,23 @@
     display: block;
   }
   
+    /* Widths smaller than L laptop */
+     @media (max-width: 1440px) {
+      .card-rotate {
+        width: 300px;
+      }
+    }
+
    /* Widths smaller than laptop */
    @media (max-width: 1024px) {
     .card-rotate {
-      width: 325px;
+      width: 275px;
     }
   }
   
   /* Widths smaller than tablet */
   @media (max-width: 768px) {
     .card-rotate {
-      width: 250px;
+      width: 225px;
     }
   }

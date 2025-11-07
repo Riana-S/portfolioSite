@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 #generateAbout h3 {
@@ -37,6 +38,25 @@
     font-size: 20px;
     margin: 0;
 }
+
+ /* Widths smaller than L laptop */
+ @media (max-width: 1440px) {
+    #generateAbout h3 {
+        font-size: 20px;
+    }
+    #generateAbout img {
+        height: 75px;
+    }
+    #generateAbout div {
+        width: 24vw;
+    }
+    #generateAbout h4 {
+        font-size: 18px;
+    }
+    #generateAbout p {
+        font-size: 16px;
+    }
+ }
 
 /* Widths smaller than laptop */
 @media (max-width: 1024px) {

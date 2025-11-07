@@ -174,8 +174,56 @@
     }
   }
   
+   /* Widths smaller than L laptop */
+@media (max-width: 1440px) {
+    #articleAbout {
+        justify-content: space-around;
+        gap: 40vw;
+    }
+    .about-section h2 {
+        font-size: 40px;
+    }
+    .about-section p {
+        font-size: 20px;
+    }
+    .about-section h3 {
+        font-size: 24px;
+    }
+    .cd {
+        height: 80px;
+    }
+    .hobby img {
+        height: 80px;
+    }
+    .indieStamp {
+        width: 83px;
+        height: 44px;
+    }
+    .indieButton {
+        width: 124px;
+        height: 44px;
+    }
+    #badgeStack img {
+        height: 22px;
+        width: 118px;
+    }
+    .indieBlinkie {
+        height: 23px;
+        width: 175px;
+    }
+  }
+
   /* Widths smaller than laptop */
   @media (max-width: 1024px) {
+    .about-section h2 {
+        font-size: 36px;
+    }
+    .about-section p {
+        font-size: 18px;
+    }
+    .about-section h3 {
+        font-size: 20px;
+    }
     hr {
         margin: 10px 0;
       }
@@ -205,6 +253,15 @@
   
   /* Widths smaller than tablet */
   @media (max-width: 768px) {
+    .about-section h2 {
+        font-size: 24px;
+    }
+    .about-section p {
+        font-size: 14px;
+    }
+    .about-section h3 {
+        font-size: 18px;
+    }
     hr {
         margin: 10px 0;
       }

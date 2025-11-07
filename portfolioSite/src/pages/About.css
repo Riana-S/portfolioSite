@@ -178,7 +178,7 @@
 @media (max-width: 1440px) {
     #articleAbout {
         justify-content: space-around;
-        gap: 40vw;
+        gap: 30vw;
     }
     .about-section h2 {
         font-size: 40px;

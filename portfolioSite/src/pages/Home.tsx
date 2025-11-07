@@ -59,14 +59,14 @@ export default function Home() {
         <div id="schools">
           <img src="/companies/scu.png"></img>
           <div className="info">
-            <p className="major">B.S. Computer Science & Engineering</p>
+            <h3>B.S. Computer Science & Engineering</h3>
             <p>Cumulative GPA: 3.5/4.0</p>
             <p>Cum Laude Graduation Honors</p>
           </div>
           <p>Sep 2021 - June 2025</p>
           <img src="/companies/yonsei.png"></img>
           <div className="info">
-            <p className="major">Computer Science</p>
+            <h3>Computer Science</h3>
             <p>Cumulative GPA: 3.8/4.0</p>
             <p>Study Abroad Fall Semester</p>
           </div>

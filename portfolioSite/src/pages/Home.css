@@ -241,6 +241,17 @@ span {
   }
 }
 
+/* Widths smaller than 4K */
+@media (max-width: 2560px) {
+  #mission img {
+    height: 30vh;
+  }
+
+  #socials img {
+    height: 5vh;
+  }
+}
+
 /* Widths smaller than L laptop */
 @media (max-width: 1440px) {
   .job p {

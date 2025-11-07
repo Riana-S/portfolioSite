@@ -41,7 +41,6 @@ interface CardRotateProps {
 interface StackProps {
     randomRotation?: boolean;
     sensitivity?: number;
-    cardDimensions?: { width: number; height: number };
     sendToBackOnClick?: boolean;
     cardsData?: { id: number; img: string }[];
     animationConfig?: { stiffness: number; damping: number };
@@ -51,7 +50,6 @@ interface StackProps {
   export default function Stack({
     randomRotation = false,
     sensitivity = 200,
-    cardDimensions = { width: 208, height: 208 },
     cardsData = [],
     animationConfig = { stiffness: 260, damping: 20 },
     sendToBackOnClick = false,
@@ -92,11 +90,6 @@ interface StackProps {
     return (
       <div
         className="stack-container"
-        style={{
-          width: cardDimensions.width,
-          height: cardDimensions.height,
-          perspective: 600
-        }}
       >
         {cards.map((card, index) => {
           const randomRotate = randomRotation ? Math.random() * 10 - 5 : 0;
@@ -120,10 +113,6 @@ interface StackProps {
                   type: 'spring',
                   stiffness: animationConfig.stiffness,
                   damping: animationConfig.damping
-                }}
-                style={{
-                  width: cardDimensions.width,
-                  height: cardDimensions.height
                 }}
               >
                 <img src={card.img} alt={`card-${card.id}`} className="card-image" />

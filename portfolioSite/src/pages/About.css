@@ -173,3 +173,61 @@
       transform: rotate(360deg); /* Ending state: full 360-degree rotation */
     }
   }
+  
+  /* Widths smaller than laptop */
+  @media (max-width: 1024px) {
+    hr {
+        margin: 10px 0;
+      }
+    .cd {
+        height: 75px;
+    }
+    .hobby img {
+        height: 75px;
+    }
+    .indieStamp {
+        width: 83px;
+        height: 44px;
+    }
+    .indieButton {
+        width: 124px;
+        height: 44px;
+    }
+    #badgeStack img {
+        height: 22px;
+        width: 118px;
+    }
+    .indieBlinkie {
+        height: 23px;
+        width: 175px;
+    }
+  }
+  
+  /* Widths smaller than tablet */
+  @media (max-width: 768px) {
+    hr {
+        margin: 10px 0;
+      }
+    .cd {
+        height: 50px;
+    }
+    .hobby img {
+        height: 50px;
+    }
+    .indieStamp {
+        width: 62px;
+        height: 33px;
+    }
+    .indieButton {
+        width: 93px;
+        height: 33px;
+    }
+    #badgeStack img {
+        height: 16px;
+        width: 89px;
+    }
+    .indieBlinkie {
+        height: 16px;
+        width: 131px;
+    }
+  }

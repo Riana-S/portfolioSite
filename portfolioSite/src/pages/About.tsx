@@ -27,7 +27,6 @@ export default function About() {
                 randomRotation={true}
                 sensitivity={180}
                 sendToBackOnClick={false}
-                cardDimensions={{ width: 450, height: 700 }}
                 cardsData={images}
                 onTopCardChange={setTopCardId}
                 />
@@ -80,7 +79,7 @@ export default function About() {
                             <p>Travel</p>
                         </div>
                         <div className="hobby">
-                            <img src="/aboutPics/art.jpg"></img>
+                            <img src="/aboutPics/art.png"></img>
                             <p>Art</p>
                         </div>
                     </div>

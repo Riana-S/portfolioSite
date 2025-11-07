@@ -34,7 +34,7 @@ export const projects: Project[] = [
         id: 1,
         title: "TripTime",
         date: "Sep 2025 - Oct 2025",
-        description: "TripTime is a 3D spatial travel guide built with ByteDance’s WebSpatial SDK for Apple Vision Pro.",
+        description: "TripTime is a 3D spatial travel guide built with ByteDance’s WebSpatial SDK for Apple Vision Pro. Explore Gen Z recommendations for Seoul, Honolulu, and Tokyo!",
         images: tt1,
         techStack: [
             { name: "React", logo: reactLogo },
@@ -52,7 +52,7 @@ export const projects: Project[] = [
         id: 2,
         title: "Portuguese for Mozambican Mothers",
         date: "May 2024 - Jun 2025",
-        description: "Android app teaching nonliterate moms Portuguese to improve their quality of life, in partnership with nonprofit DIFF Education and SCU Frugal Innovation Hub for thesis senior design project",
+        description: "Android app teaching nonliterate moms Portuguese to improve their quality of life, in partnership with nonprofit DIFF Education and SCU Frugal Innovation Hub for thesis senior design project.",
         images: pmm1,
         techStack: [
             { name: "VSCode", logo: vscodeLogo },

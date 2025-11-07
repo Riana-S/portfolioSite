@@ -35,3 +35,29 @@ h3 {
 .footer-links a:hover {
     text-decoration: underline;
 }
+  
+/* Widths smaller than laptop */
+  @media (max-width: 1024px) {
+    h2 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 22px;
+    }
+  }
+  
+  /* Widths smaller than tablet */
+  @media (max-width: 768px) {
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+  }

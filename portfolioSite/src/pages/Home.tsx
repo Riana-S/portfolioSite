@@ -59,14 +59,14 @@ export default function Home() {
         <div id="schools">
           <img src="/companies/scu.png"></img>
           <div className="info">
-            <p className="major">B.S. Computer Science & Engineering</p>
+            <h3>B.S. Computer Science & Engineering</h3>
             <p>Cumulative GPA: 3.5/4.0</p>
             <p>Cum Laude Graduation Honors</p>
           </div>
           <p>Sep 2021 - June 2025</p>
           <img src="/companies/yonsei.png"></img>
           <div className="info">
-            <p className="major">Computer Science</p>
+            <h3>Computer Science</h3>
             <p>Cumulative GPA: 3.8/4.0</p>
             <p>Study Abroad Fall Semester</p>
           </div>
@@ -99,7 +99,7 @@ export default function Home() {
       <section className="reveal" id="experience">
         <h2>Work Experience</h2>
         <section className="reveal">
-          <div className="card">
+          <div className="workExp">
             <img src="/companies/bytedance.png"></img>
             <div className="work">
               <div className="job">
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
         </section>
         <section className="reveal">
-          <div className="card">
+          <div className="workExp">
             <img src="/companies/scu_imaginarium_logo.jpeg"></img>
             <div className="work">
               <div className="job">
@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         </section>
         <section className="reveal">
-          <div className="card">
+          <div className="workExp">
             <img src="/companies/shc.png"></img>
             <div className="work">
               <div className="job">
@@ -159,7 +159,7 @@ export default function Home() {
           </div>
         </section>
         <section className="reveal">
-          <div className="card">
+          <div className="workExp">
             <img src="/companies/ies.png"></img>
             <div className="work">
               <div className="job">
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
         </section>
         <section className="reveal">
-          <div className="card">
+          <div className="workExp">
             <img src="/companies/shc.png"></img>
             <div className="work">
               <div className="job">

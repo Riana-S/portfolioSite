@@ -11,12 +11,18 @@
     background-image: linear-gradient(to bottom, rgba(190, 189, 186, 0.3), rgba(235, 232, 227, 0.3));
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
-    max-width: 375px;
-    margin-bottom: 5%;
+    width: 24vw;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
 }
 
 #generateAbout h3 {
     margin: 0;
+    font-size: 24px;
 }
 
 #generateAbout img {
@@ -24,11 +30,65 @@
 }
 
 #generateAbout h4 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
 }
 
 #generateAbout p {
     font-size: 20px;
     margin: 0;
+}
+
+ /* Widths smaller than L laptop */
+ @media (max-width: 1440px) {
+    #generateAbout h3 {
+        font-size: 20px;
+    }
+    #generateAbout img {
+        height: 75px;
+    }
+    #generateAbout div {
+        width: 24vw;
+    }
+    #generateAbout h4 {
+        font-size: 18px;
+    }
+    #generateAbout p {
+        font-size: 16px;
+    }
+ }
+
+/* Widths smaller than laptop */
+@media (max-width: 1024px) {
+    #generateAbout h3 {
+        font-size: 20px;
+    }
+    #generateAbout img {
+        height: 75px;
+    }
+    #generateAbout div {
+        width: 24vw;
+    }
+    #generateAbout h4 {
+        font-size: 18px;
+    }
+    #generateAbout p {
+        font-size: 16px;
+    }
+}
+
+/* Widths smaller than tablet */
+@media (max-width: 768px) {
+    #generateAbout h3 {
+        font-size: 16px;
+    }
+    #generateAbout img {
+        height: 50px;
+    }
+    #generateAbout h4 {
+        font-size: 14px;
+    }
+    #generateAbout p {
+        font-size: 12px;
+    }
 }

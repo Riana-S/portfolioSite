@@ -2,139 +2,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 #root {
-  margin: 0 auto;
-  text-align: center;
-  background-color: #071E22;
-  color: #EBE8E3;
-  width: 100%;
-  height: 100%;
+ margin: 0 auto;
+ text-align: center;
+ background-color: #071E22;
+ color: #EBE8E3;
+ width: 100%;
+ height: 100%;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+ height: 6em;
+ padding: 1.5em;
+ will-change: filter;
+ transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+ filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+ filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 header {
   position: relative;
   padding: 3% 5% 10% 5%;
-}
-
+ }
+ 
 #background-aurora {
   position: absolute;
   inset: 0;
   z-index: 0; /* Aurora goes behind */
   width: 100%;
   background-color: #071E22;
-}
-
-#top-aurora {
+ }
+ 
+ #top-aurora {
   position: relative;
   z-index: 0;
-}
+ }
 
-#mission {
+ #mission {
   display: flex;
   flex-direction: row;
   margin: 5% 5% 3% 5%;
   text-align: left;
-}
-
-#intro {
+ }
+ 
+ #intro {
   margin-left: 5%;
-}
+ }
 
-#intro p {
-  margin-bottom: 2%;
-}
+ #intro h2 {
+  font-size: 16px;
+ }
 
-img {
-  height: 60vh;
-}
+ #intro p {
+  font-size: 10px;
+  margin-top: 2%;
+ }
+ 
+ #mission img {
+  height: 20vh;
+ }
 
-span {
-  font-weight: bold;
-  font-style: italic;
-}
-
-#connect {
+ #connect {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+  margin-top: 2%;
+ } 
 
-#resume {
+ #resume {
   display: flex;
   flex-direction: row;
   gap: 5%;
-}
-
-#resume button {
+ }
+ 
+ #resume button {
+  background-color: transparent;
+  padding: 0.5vh 2vh 0.5vh 2vh;
+  border-radius: 25px;
+  border: 0.5px solid white;
+  background-image: linear-gradient(to bottom, rgba(190, 189, 186, 0.3), rgba(235, 232, 227, 0.3));
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  font-family: DM Serif Display;
+  font-size: 10px;
+  color: #EBE8E3;
   margin-right: 5%;
+ }
+
+ #socials img {
+  height: 3vh;
+  margin-left: 2vw;
+ }
+
+#education {
+  margin-top: 10vw;
 }
 
-#socials {
-  display: flex;
-  flex-direction: row;
-  margin-right: 5%;
-}
-
-#socials a {
-  margin-left: 5%;
-}
-
-#socials img {
-  height: 7vh;
-}
-
-#schools {
+ #schools {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 15vw);
-  row-gap: 5vw;
+  row-gap: 10vw;
   margin-bottom: 5vw;
-}
-
-#schools img {
+  margin-top: 5vw;
+  font-size: 10px;
+ }
+ 
+ #schools img {
   justify-self: center;
   align-self: center;
   height: 15vw;
-}
+ }
 
-.info {
+ #schools h3 {
+  font-size: 8px;
+ }
+
+ #schools p {
+  font-size: 8px;
+ }
+ 
+ .info {
   text-align: left;
-}
+ }
 
-#schools h3 {
+ #schools h3 {
   margin-bottom: 2vw;
-}
-
-#schools p {
+ }
+ 
+ #schools p {
   margin-bottom: 5%;
+ }
+ 
+#skills {
+  margin-top: 10vw;
+  margin-bottom: 10vw;
 }
 
-#mainSkills {
+ #mainSkills {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
-}
-
-#mainSkills img {
+ }
+ 
+ #mainSkills img {
   height: 10vw;
-}
+ }
 
-#otherSkills {
+ #otherSkills {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 9vw);
@@ -142,19 +162,19 @@ span {
   margin-top: 2%;
   margin-left: 20vw;
   width: 60vw;
-}
-
-#otherSkills img {
+ }
+ 
+ #otherSkills img {
   height: 7vw;
-}
-
-#experience {
+ }
+ 
+ #experience {
   display: flex;
   flex-direction: column;
   margin-top: 5%;
-}
-
-.workExp {
+ }
+ 
+ .workExp {
   display: flex;
   flex-direction: row;
   background-color: #EBE8E3;
@@ -165,179 +185,37 @@ span {
   text-align: center;
   margin: 2% 10% 0% 10%;
   justify-content: space-around;
-}
-
-.workExp img {
+ }
+ 
+ .workExp img {
   height: 12vw;
-}
+ }
+ 
+ .job p {
+  font-size: 8px;
+ }
 
-/* Animation styles */
-.reveal {
-  /* The initial, hidden state of the element */
-  transform: translateY(50px);
-  opacity: 0;
-  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
-}
-
-.reveal.is-visible {
-  /* The final, visible state of the element */
-  transform: translateY(0);
-  opacity: 1;
-}
-
-.job {
-  display: grid;
-  grid-template-columns: 30vw 1fr;
-  grid-template-rows: repeat(2, 3vw);
-}
-
-.job p {
-  align-self: center;
-  margin: 0;
-}
-
-.role {
+ .role {
   font-weight: bold;
-  text-align: left;
-}
-
-.company {
+ }
+ 
+ .company {
   font-weight: bold;
   font-style: italic;
-  text-align: left;
-}
-
-.workInfo {
-  text-align: right;
-}
-
-.topSkills {
+ }
+ 
+ .topSkills {
   display: flex;
   flex-direction: row;
-  margin-top: 2%;
+  margin-top: 5%;
   gap: 1vw;
-}
+  font-size: 8px;
+ }
 
-.skill {
+ .skill {
   background-color: #051414;
   color: #EBE8E3;
-  font-size: large;
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 2%;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-/* Widths smaller than 4K */
-@media (max-width: 2560px) {
-  #mission img {
-    height: 30vh;
-  }
-
-  #socials img {
-    height: 5vh;
-  }
-}
-
-/* Widths smaller than L laptop */
-@media (max-width: 1440px) {
-  #mission img {
-    height: 50vh;
-  }
-
-  #socials img {
-    height: 7vh;
-  }
-
-  .job p {
-    font-size: 24px;
-  }
-
-  .skill {
-    font-size: 18px;
-  }
-}
-
-/* Widths smaller than laptop */
-@media (max-width: 1024px) {
-  h1 {
-    font-size: 96px;
-  }
-
-  #mission img {
-    height: 55vh;
-  }
-
-  #socials img {
-    height: 7vh;
-  }
-
-  #schools {
-    row-gap: 10vw;
-  }
-
-  .job p {
-    font-size: 18px;
-  }
-
-  .skill {
-    font-size: 12px;
-  }
-}
-
-/* Widths smaller than tablet */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 64px;
-  }
-
-  #mission img {
-    height: 40vh;
-  }
-
-  #socials img {
-    height: 7vh;
-  }
-
-  #schools {
-    row-gap: 5vw;
-  }
-
-  .job p {
-    font-size: 12px;
-  }
-
-  .skill {
-    font-size: 8px;
-  }
-}
-
-/* Widths smaller than phone */
-@media (max-width: 425px) {
-  #mission img {
-    height: 25vh;
-  }
-  #mission p {
-    font-size: 10px;
-  }
-  #connect img {
-    height: 3vh;
-  }
-  #connect button {
-    height: 3vh;
-    font-size: 10px;
-  }
-}
+ }
+ 

@@ -8,8 +8,21 @@ footer {
     text-align: left;
 }
 
-h3 {
-    font-size: xx-large;
+#ending {
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+#contact h3 {
+    font-size: 10px;
+}
+#hiring h3 {
+    font-size: 10px;
+}
+#contact p {
+    font-size: 8px;
+}
+#hiring p {
+    font-size: 8px;
 }
 
 #links {
@@ -38,39 +51,39 @@ h3 {
   
 /* Widths smaller than laptop */
   @media (max-width: 1024px) {
-    h2 {
+    .ending h2 {
         font-size: 48px;
     }
-    h3 {
+    .contact .hiring h3 {
         font-size: 24px;
     }
-    p {
+    .contact .hiring p {
         font-size: 22px;
     }
   }
   
   /* Widths smaller than tablet */
   @media (max-width: 768px) {
-    h2 {
+    .ending h2 {
         font-size: 32px;
     }
-    h3 {
+    .contact .hiring h3 {
         font-size: 16px;
     }
-    p {
+    .contact .hiring p {
         font-size: 16px;
     }
   }
 
   /* Widths smaller than phone */
-@media (max-width: 425px) {
-    h2 {
-        font-size: 20px;
+  @media (max-width: 425px) {
+    .ending h2 {
+        font-size: 14px;
     }
-    h3 {
-        font-size: 10px;
+    .contact .hiring h3 {
+        font-size: 8px;
     }
-    p {
-        font-size: 10px;
+    .contact .hiring p {
+        font-size: 8px;
     }
-}
+  }

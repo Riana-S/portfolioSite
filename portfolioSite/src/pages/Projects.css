@@ -98,22 +98,22 @@ header {
 }
 
 @media (max-width: 1440px) {
-    h2 {
+    .projects-section .research-section .videos-section h2 {
         font-size: 40px;
     }
-    p {
+    .projects-section .research-section .videos-section p {
         font-size: 24px;
     }
 }
 
 @media (max-width: 1024px) {
-    h1 {
+    .projects-section .research-section .videos-section h1 {
         font-size: 96px;
       }
-    h2 {
+      .projects-section .research-section .videos-section h2 {
         font-size: 36px;
     }
-    p {
+    .projects-section .research-section .videos-section p {
         font-size: 20px;
     }
     .category-select {
@@ -125,13 +125,13 @@ header {
 }
 
 @media (max-width: 768px) {
-    h1 {
+    .projects-section .research-section .videos-section h1 {
         font-size: 64px;
       }
-    h2 {
+      .projects-section .research-section .videos-section h2 {
         font-size: 24px;
     }
-    p {
+    .projects-section .research-section .videos-section p {
         font-size: 18px;
     }
     .category-select {

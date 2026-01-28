@@ -2,10 +2,11 @@
 
 .project-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 2rem;
-  margin: 4% 4% 10% 4%;
+  gap: 0.5rem;
+  margin: 4% 4% 20% 4%;
   color: #EBE8E3;
   opacity: 0;
   transform: translateY(20px);
@@ -13,7 +14,7 @@
 }
 
 .project-card.reverse {
-  flex-direction: row-reverse; /* ⬅️ flips order */
+  flex-direction: column;
 }
 
 /* Slide directions */
@@ -33,7 +34,7 @@
 }
 
 .project-image img {
-  height: 20vw;
+  height: 40vw;
   max-width: 500px;
   border-radius: 1rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -46,6 +47,7 @@
 
 .project-content p {
   margin-bottom: 5%;
+  font-size: 14px;
 }
 
 .project-name {
@@ -69,7 +71,7 @@ hr {
   
 .project-content a {
   font-family: DM Serif Display;
-  font-size: larger;
+  font-size: 16px;
   color: #EBE8E3;
   text-decoration: none;
   padding: 1vw 2vw 1vw 2vw;
@@ -87,4 +89,67 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    flex-direction: row;
+    margin-bottom: 10%;
+    gap: 2rem;
+  }
+
+  .project-card.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .project-image img {
+    height: 25vw;
+  }
+
+  .project-content p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-card {
+    margin-bottom: 8%;
+    gap: 3rem;
+  }
+
+  .project-content p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .project-name h2 {
+    font-size: 36px;
+  }
+
+  .project-content p {
+    font-size: 28px;
+  }
+
+  .project-content a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .project-card {
+    gap: 5rem;
+  }
+
+  .project-name h2 {
+    font-size: 64px;
+  }
+
+  .project-content p {
+    font-size: 48px;
+  }
+
+  .project-content a {
+    font-size: 40px;
+  }
 }

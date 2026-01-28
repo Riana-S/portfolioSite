@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
-        <h2>Thanks for taking a look! Let's connect :)</h2>
+        <h2 id="ending">Thanks for taking a look! Let's connect :)</h2>
         <section id="links">
             <div id="contact">
                 <h3>Contact:</h3>

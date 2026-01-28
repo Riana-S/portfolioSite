@@ -8,8 +8,21 @@ footer {
     text-align: left;
 }
 
-h3 {
-    font-size: xx-large;
+#ending {
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+#contact h3 {
+    font-size: 10px;
+}
+#hiring h3 {
+    font-size: 10px;
+}
+#contact p {
+    font-size: 8px;
+}
+#hiring p {
+    font-size: 8px;
 }
 
 #links {
@@ -36,28 +49,60 @@ h3 {
     text-decoration: underline;
 }
   
+@media (min-width: 768px) {
+    #ending {
+        font-size: 32px;
+    }
+    #contact h3 {
+        font-size: 20px;
+    }
+    #hiring h3 {
+        font-size: 20px;
+    }
+    #contact p {
+        font-size: 20px;
+    }
+    #hiring p {
+        font-size: 20px;
+    }
+}
+
 /* Widths smaller than laptop */
-  @media (max-width: 1024px) {
-    h2 {
+  @media (min-width: 1024px) {
+    #ending {
         font-size: 48px;
+        margin-bottom: 3%;
     }
-    h3 {
-        font-size: 24px;
+    #contact h3 {
+        font-size: 30px;
+        margin-bottom: 2%;
     }
-    p {
+    #hiring h3 {
+        font-size: 30px;
+        margin-bottom: 2%;
+    }
+    #contact p {
+        font-size: 22px;
+    }
+    #hiring p {
         font-size: 22px;
     }
   }
-  
-  /* Widths smaller than tablet */
-  @media (max-width: 768px) {
-    h2 {
+
+  @media (min-width: 1440px) {
+    #ending {
+        font-size: 64px;
+    }
+    #contact h3 {
+        font-size: 44px;
+    }
+    #hiring h3 {
+        font-size: 44px;
+    }
+    #contact p {
         font-size: 32px;
     }
-    h3 {
-        font-size: 16px;
-    }
-    p {
-        font-size: 16px;
+    #hiring p {
+        font-size: 32px;
     }
   }

@@ -60,7 +60,7 @@ export default function Home() {
           <img src="/companies/scu.png"></img>
           <div className="info">
             <h3>B.S. Computer Science & Engineering</h3>
-            <p>Cumulative GPA: 3.5/4.0</p>
+            <p>Cumulative GPA: 3.6/4.0</p>
             <p>Cum Laude Graduation Honors</p>
           </div>
           <p>Sep 2021 - June 2025</p>
@@ -109,11 +109,9 @@ export default function Home() {
                 <p className="workInfo">Remote</p>
               </div>
               <div className="topSkills">
-                <p className="skill">TypeScript</p>
-                <p className="skill">HTML / CSS</p>
+                <p className="skill">TypeScript & HTML / CSS</p>
                 <p className="skill">Apple Vision Pro</p>
-                <p className="skill">Video Editing</p>
-                <p className="skill">Figma</p>
+                <p className="skill">Figma UI Design</p>
               </div>
             </div> 
           </div>
@@ -131,9 +129,7 @@ export default function Home() {
               <div className="topSkills">
                 <p className="skill">Social Sciences</p>
                 <p className="skill">Quant-Qual Methods</p>
-                <p className="skill">VR</p>
-                <p className="skill">Event Planning</p>
-                <p className="skill">Video Editing</p>
+                <p className="skill">Mixed Reality</p>
               </div>
             </div> 
           </div>
@@ -149,11 +145,9 @@ export default function Home() {
                 <p className="workInfo">Full-Time Hybrid</p>
               </div>
               <div className="topSkills">
-                <p className="skill">Epic</p>
+                <p className="skill">Epic Systems</p>
                 <p className="skill">Test Scripts</p>
                 <p className="skill">Regression Testing</p>
-                <p className="skill">VBA</p>
-                <p className="skill">HTML</p>
               </div>
             </div> 
           </div>
@@ -189,8 +183,6 @@ export default function Home() {
               <div className="topSkills">
                 <p className="skill">Data Analysis</p>
                 <p className="skill">Service Now</p>
-                <p className="skill">Microsoft Excel</p>
-                <p className="skill">Qual Methods</p>
                 <p className="skill">Security Review</p>
               </div>
             </div> 

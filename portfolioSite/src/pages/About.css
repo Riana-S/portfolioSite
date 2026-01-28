@@ -6,86 +6,59 @@
     height: 100%;
     background-color: #071E22;
 }
-
+ 
 #top-veil {
     position: relative;
     z-index: 0;
 }
-
+ 
 #headerAbout {
     padding: 0px;
 }
 
 #articleAbout {
-    margin: 0% 4% 0% 4%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .card {
     padding: 0px;
 }
-
+ 
 .card img{
     height: 100%;
 }
-
+ 
 .about-section {
     opacity: 0;
     position: absolute;
     transition: opacity 0.5s ease;
-    width: 50vw;
-    text-align: left;
-  }
-  
-  .about-section.visible {
-    opacity: 1;
-    position: relative;
-  }
-  
-  .about-sections {
-    position: relative;
-    min-height: 200px; /* to prevent layout shift */
-  }
+    margin-top: 365px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-section h2 {
+    font-size: 14px;
+}
 
 .about-section p {
+    font-size: 10px;
     margin: 2% 0% 2% 0%;
 }
 
-#siteAboutTitle {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.about-section h3 {
+    font-size: 12px;
 }
 
-#siteAboutTitle h3 {
-    margin: 0;
+.about-section.visible {
+    opacity: 1;
+    position: relative;
 }
 
-#siteAbout p {
-    margin: 0;
-}
-
-#contactAbout {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#contactAbout h3 {
-    margin: 1.5em 0 0 0;
-}
-
-#linksAbout {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    gap: 9.3vw;
-}
-
-#linksAbout h3 {
-    margin: 0;
+.stack-container {
+    margin-left: 20%;
 }
 
 #cdsAbout {
@@ -93,16 +66,16 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 2%;
-}
-
+} 
+ 
 .cd {
-    height: 100px;
+    height: 50px;
     border-radius: 100px ;
 }
 
 .cd:hover {
     animation: rotate360 3s linear infinite;
-}
+} 
 
 #hobbiesAbout {
     display: flex;
@@ -110,45 +83,37 @@
     justify-content: space-around;
     margin-top: 2%;
 }
-
+ 
 .hobby {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+ 
 .hobby img {
-    height: 100px;
+    height: 50px;
 }
-
-.hobby p {
-    margin: 15px 0 0 0;
-}
-
-#indieAboutTitle {
-    margin: 0;
-}
-
+ 
 #indieAbout {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 6px;
-  }
-
+}
+  
 .indieStamp {
     object-fit: cover;
-    width: 139px;
-    height: 73px;
+    width: 62px;
+    height: 33px;
 }
-
+  
 .indieButton {
     object-fit: cover;
-    width: 207px;
-    height: 73px;
+    width: 93px;
+    height: 33px;
 }
-
+  
 #badgeStack {
     display: flex;
     flex-direction: column;
@@ -156,135 +121,147 @@
 }
 
 #badgeStack img {
-    height: 37px;
-    width: 197px;
+    height: 16px;
+    width: 89px;
 }
 
 .indieBlinkie {
-    height: 39px;
-    width: 292px;
+    height: 16px;
+    width: 131px;
+} 
+ 
+
+@media (min-width: 768px) {
+    #articleAbout {
+        flex-direction: row;
+        margin: 0% 4% 0% 4%;
+    }
+
+    .about-section {
+        margin-top: 5%;
+        width: 50vw;
+        text-align: left;
+    }
+
+    .about-section h2 {
+        font-size: 20px;
+    }
+    
+    .about-section p {
+        font-size: 12px;
+    }
+    
+    .about-section h3 {
+        font-size: 14px;
+    }
+
+    .stack-container {
+        margin-left: 0%;
+    }
+
+    #siteAboutTitle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #siteAboutTitle h3 {
+        margin: 0;
+    }
+
+     #siteAbout p {
+        margin: 0;
+    }
+     
+    #contactAbout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #contactAbout h3 {
+        margin: 1.5em 0 0 0;
+    }     
+
+    #linksAbout {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 9.3vw;
+    }
+      
+    .cd {
+        height: 75px;
+    }
+
+    .hobby img {
+        height: 75px;
+    }
 }
 
-@keyframes rotate360 {
-    from {
-      transform: rotate(0deg); /* Starting state: no rotation */
+@media (min-width: 1024px) {
+    .about-section h2 {
+        font-size: 32px;
     }
-    to {
-      transform: rotate(360deg); /* Ending state: full 360-degree rotation */
+    
+    .about-section p {
+        font-size: 16px;
     }
-  }
-  
-   /* Widths smaller than L laptop */
-@media (max-width: 1440px) {
-    #articleAbout {
-        justify-content: space-around;
-        gap: 30vw;
+    
+    .about-section h3 {
+        font-size: 20px;
     }
+}
+
+@media (min-width: 1440px) {
+    .about-section {
+        margin-top: 2%;
+        margin-left: 0;
+    }
+
     .about-section h2 {
         font-size: 40px;
     }
+    
     .about-section p {
         font-size: 20px;
     }
+    
     .about-section h3 {
         font-size: 24px;
     }
-    .cd {
-        height: 80px;
-    }
-    .hobby img {
-        height: 80px;
-    }
-    .indieStamp {
-        width: 83px;
-        height: 44px;
-    }
-    .indieButton {
-        width: 124px;
-        height: 44px;
-    }
-    #badgeStack img {
-        height: 22px;
-        width: 118px;
-    }
-    .indieBlinkie {
-        height: 23px;
-        width: 175px;
-    }
-  }
 
-  /* Widths smaller than laptop */
-  @media (max-width: 1024px) {
-    .about-section h2 {
-        font-size: 36px;
+    .stack-container {
+        margin-left: 5%;
     }
+}
+
+@media (min-width: 2560px) {
+    .about-section {
+        margin-right: 10%;
+    }
+
+    .about-section h2 {
+        font-size: 48px;
+    }
+    
     .about-section p {
-        font-size: 18px;
-    }
-    .about-section h3 {
-        font-size: 20px;
-    }
-    hr {
-        margin: 10px 0;
-      }
-    .cd {
-        height: 75px;
-    }
-    .hobby img {
-        height: 75px;
-    }
-    .indieStamp {
-        width: 83px;
-        height: 44px;
-    }
-    .indieButton {
-        width: 124px;
-        height: 44px;
-    }
-    #badgeStack img {
-        height: 22px;
-        width: 118px;
-    }
-    .indieBlinkie {
-        height: 23px;
-        width: 175px;
-    }
-  }
-  
-  /* Widths smaller than tablet */
-  @media (max-width: 768px) {
-    .about-section h2 {
         font-size: 24px;
     }
-    .about-section p {
-        font-size: 14px;
-    }
+    
     .about-section h3 {
-        font-size: 18px;
+        font-size: 32px;
     }
-    hr {
-        margin: 10px 0;
-      }
+
+    .stack-container {
+        margin-left: 10%;
+    }
+
     .cd {
-        height: 50px;
+        height: 100px;
     }
+
     .hobby img {
-        height: 50px;
+        height: 100px;
     }
-    .indieStamp {
-        width: 62px;
-        height: 33px;
-    }
-    .indieButton {
-        width: 93px;
-        height: 33px;
-    }
-    #badgeStack img {
-        height: 16px;
-        width: 89px;
-    }
-    .indieBlinkie {
-        height: 16px;
-        width: 131px;
-    }
-  }
+}

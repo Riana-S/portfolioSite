@@ -324,3 +324,20 @@ span {
     font-size: 8px;
   }
 }
+
+/* Widths smaller than phone */
+@media (max-width: 425px) {
+  #mission img {
+    height: 25vh;
+  }
+  #mission p {
+    font-size: 10px;
+  }
+  #connect img {
+    height: 3vh;
+  }
+  #connect button {
+    height: 3vh;
+    font-size: 10px;
+  }
+}

@@ -60,7 +60,7 @@ export default function Home() {
           <img src="/companies/scu.png"></img>
           <div className="info">
             <h3>B.S. Computer Science & Engineering</h3>
-            <p>Cumulative GPA: 3.5/4.0</p>
+            <p>Cumulative GPA: 3.6/4.0</p>
             <p>Cum Laude Graduation Honors</p>
           </div>
           <p>Sep 2021 - June 2025</p>

@@ -93,6 +93,7 @@ header {
     width: 200px;
 }
 
+/* Tablet sizing */
 @media (min-width: 768px) {
     .category-select {
         text-align: left;
@@ -141,6 +142,7 @@ header {
     }
 }
 
+/* Laptop sizing */
 @media (min-width: 1024px) {
     .category-select {
         font-size: 24px;
@@ -206,6 +208,7 @@ header {
     }
 }
 
+/* Large screen sizing */
 @media (min-width: 2560px) {
     .category-select {
         font-size: 48px;

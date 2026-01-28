@@ -91,6 +91,7 @@ hr {
   justify-content: space-around;
 }
 
+/* Tablet sizing */
 @media (min-width: 768px) {
   .project-card {
     flex-direction: row;
@@ -111,6 +112,7 @@ hr {
   }
 }
 
+/* Laptop sizing */
 @media (min-width: 1024px) {
   .project-card {
     margin-bottom: 8%;
@@ -136,6 +138,7 @@ hr {
   }
 }
 
+/* Large screen sizing */
 @media (min-width: 2560px) {
   .project-card {
     gap: 5rem;

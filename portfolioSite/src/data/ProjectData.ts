@@ -46,7 +46,7 @@ export const projects: Project[] = [
             { name: "Git", logo: gitLogo },
         ],
         github: "https://github.com/izzygperez/TripTime",
-        link: "https://trip-time-ten.vercel.app/",
+        link: "https://apps.apple.com/us/app/triptime/id6753330494",
     },
     {
         id: 2,

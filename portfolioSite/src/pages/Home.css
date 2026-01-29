@@ -62,7 +62,7 @@ header {
 }
  
 #mission img {
-  height: 20vh;
+  height: 20vw;
 }
 
 #connect {
@@ -92,7 +92,7 @@ header {
 }
 
 #socials img {
-  height: 3vh;
+  height: 3vw;
   margin-left: 2vw;
 }
 
@@ -231,11 +231,11 @@ header {
   }
 
   #mission img {
-    height: 27vh;
+    height: 27vw;
   }
 
   #socials img {
-    height: 4vh;
+    height: 4vw;
     margin-left: 2vw;
   }
 
@@ -311,7 +311,7 @@ header {
   }
 
   #mission img {
-    height: 25vh;
+    height: 25vw;
   }
 
   #connect {
@@ -319,7 +319,7 @@ header {
   }
 
   #socials img {
-    height: 3vh;
+    height: 3vw;
   }
 
   #resume {
@@ -389,11 +389,11 @@ header {
   }
 
   #mission img {
-    height: 35vh;
+    height: 35vw;
   }
 
   #socials img {
-    height: 4vh;
+    height: 4vw;
   }
 
   #resume button {
@@ -442,7 +442,7 @@ header {
 /* Large screen sizing */
 @media (min-width: 2560px) {
   #mission img {
-    height: 20vh;
+    height: 20vw;
   }
 
   #intro p {
@@ -450,7 +450,7 @@ header {
   }
 
   #socials img {
-    height: 3vh;
+    height: 3vw;
   }
 
   #schools h3 {
